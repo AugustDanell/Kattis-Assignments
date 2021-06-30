@@ -10,4 +10,5 @@ The majority of assignments in this repository have been solved in Java or in Py
 - Prolog
 - Python
 
+Here is my Kattis profile: https://open.kattis.com/users/august-danell-hakansson
 // All the best.
