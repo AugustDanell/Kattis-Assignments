@@ -1,0 +1,1 @@
+print("Thank you, %s, and farewell!" % (input()))
