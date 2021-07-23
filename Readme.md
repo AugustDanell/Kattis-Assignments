@@ -10,6 +10,7 @@ The majority of assignments in this repository have been solved in Java or in Py
 - Java
 - Prolog
 - Python
+- Javascript (NODE JS)
 
 Here is my Kattis profile: https://open.kattis.com/users/august-danell-hakansson
 // All the best.
