@@ -6,6 +6,7 @@ The majority of assignments in this repository have been solved in Java or in Py
 
 - C++
 - C
+- C#
 - Haskell
 - Java
 - Prolog
