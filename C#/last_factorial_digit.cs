@@ -3,6 +3,7 @@ using System;
 
 class Program
 {   
+    // Using tail recursion to make it faster:
     static long accumulating_factorial(long n, long acc){
         if(n == 1 || n == 0){
             return acc;
