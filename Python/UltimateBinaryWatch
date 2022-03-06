@@ -1,0 +1,39 @@
+'''
+    1. Load in the numbers.
+    2. Iterate through them and append a binary system.
+    3. Rotate the binary system 90 degrees.
+'''
+
+time = input()
+binary_tens_hours = int(time[0])
+binary_ones_hours = int(time[1])
+binary_tens_sec = int(time[2])
+binary_ones_sec = int(time[3])
+
+candidates = [binary_tens_hours, binary_ones_hours, binary_tens_sec, binary_ones_sec]
+l = []
+for c in candidates:
+    bin = ""
+    for i in range(4):
+        if(c - 2**(3-i) >= 0):
+            c -= 2**(3-i)
+            bin += "*"
+        else:
+            bin+= "."
+
+    l.append(bin)
+
+# Formatting on their format:
+l.insert(1,"    ")
+l.insert(3,"    ")
+l.insert(3,"    ")
+l.insert(3,"    ")
+l.insert(7,"    ")
+l2 = [[],[],[],[]]
+
+for i in range(9):
+    for j in range(4):
+        l2[j].append(l[i][j])
+
+for e in l2:
+    print("".join(e))
