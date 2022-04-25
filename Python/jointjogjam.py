@@ -8,18 +8,25 @@ olax0, olay0, karix0, kariy0, olax1, olay1, karix1, kariy1 = list(map(int, input
 
 # 2. Think of this as two linesegments in 2D space. What is the max distance?
 
-''' Consider two possibilities:
+''' Consider three possibilities:
     a) The line segments are parallell
-    b) The line segments are not paralell
+    b) The line segments are not paralell and converge
+    c) The line segments are not parallell and diverge
     
-    a: If they are paralell the max distance can be any two points.
-    b: If they are not paralell the max distance should be at the end points. Why?
-    Because if the two lines converge / cross each other the max distance will
-    decrease until the crossing and then increase ever more. As such either the start point
-    or the final point will hold the max distance.
+    Paralell:               Diverging:                   Converging:
+    s--------e                   e                      s           e
+             | d1              . |                      | .       . |
+    s--------e               .   |                      |   .   .   |
+                           .     |                   d0 |     .     | d1
+                         s       | d1                   |   .   .   | 
+                           .     |                      | .       . |
+                             .   |                      s           e
+                               . |
+                                 e
     
-    If the two lines from the start are diverging then the endpoints will be the max
-    distance of the two (obviously). 
+    Let d0 be the distance between the resp starting points and d1 be the distance between resp endpoint.
+    Max(d0, d1) will give the global max because regardless of which case as seen above one of these distances will hold the global largest distance. 
+    
 '''
 
 # The two endpoints:
