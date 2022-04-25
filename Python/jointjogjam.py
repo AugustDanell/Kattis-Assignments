@@ -13,14 +13,15 @@ olax0, olay0, karix0, kariy0, olax1, olay1, karix1, kariy1 = list(map(int, input
     b) The line segments are not paralell and converge
     c) The line segments are not parallell and diverge
     
-    Paralell:               Diverging:                   Converging:
-    s--------e                   e                      s           e
-             | d1              . |                      | .       . |
-    s--------e               .   |                      |   .   .   |
-                           .     |                   d0 |     .     | d1
-                         s       | d1                   |   .   .   | 
-                           .     |                      | .       . |
-                             .   |                      s           e
+    Parallell:               Diverging:                   Converging (after point c it can diverge again, or not):
+    
+    s--------e                   e                          s           e
+             | d1              . |                          | .       . |
+    s--------e               .   |                          |   .   .   |
+                           .     |                       d0 |     c     | d1
+                         s       | d1                       |   .   .   | 
+                           .     |                          | .       . |
+                             .   |                          s           e
                                . |
                                  e
     
