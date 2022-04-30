@@ -1,5 +1,12 @@
-''' Solution Idea:
-    Having been thinking about this problem I think the best solution would be to make it such that we are focusing more on the top row than on the actual piece and its representation. Iterating through every colomn to see if a fit can be made. I implemented some assertions to test the code, simply deactiviating the kattis flag will run the tests instead. I also made a dictionary that take functions as values so when a user inputs a number theirs will be the function corrosponding to the piece of choice. That piece is then fitted according to the line called top row. We iterate through each column and try to fit every rotation on every column basically. 
+# Problem: https://open.kattis.com/problems/tetris
+
+''' 
+    Solution Idea:
+    Having been thinking about this problem I think the best solution would be to make it such that we are focusing more on the top row than on the actual piece 
+    and its representation. Iterating through every colomn to see if a fit can be made. I implemented some assertions to test the code, simply deactiviating the 
+    kattis flag will run the tests instead. I also made a dictionary that take functions as values so when a user inputs a number theirs will be the function 
+    corrosponding to the piece of choice. That piece is then fitted according to the line called top row. We iterate through each column and try to fit every 
+    rotation on every column basically. 
 
 '''
 
