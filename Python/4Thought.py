@@ -1,3 +1,4 @@
+# Parses a mathematical expression according to the rules of presedence:
 def expressionParsing(s):
     l = s.split()
     operations = []
@@ -8,7 +9,7 @@ def expressionParsing(s):
         else:
             operands.append(int(element))
 
-    # Level one.
+    # Level One:
     index = 0
     while index < len(operations):
         if operations[index] == "*":
@@ -34,6 +35,7 @@ def expressionParsing(s):
 
     return int(operands[0])
 
+# Try a combination of all fours and return the first you find. If None is find return None:
 def tryAllFours(sumToFind):
     mathematicalOperations = ["+", "-", "*", "/"]
     for firstOperation in mathematicalOperations:
@@ -46,6 +48,7 @@ def tryAllFours(sumToFind):
                     return inString
     return None
 
+# Some tests:
 testing = False
 if testing:
     assert expressionParsing("4 + 4 + 4 / 4") == 9
@@ -53,6 +56,7 @@ if testing:
     assert expressionParsing("4 + 4 - 4 / 4") == 7
     assert expressionParsing("4 * 4 + 4 + 4") == 24
 
+# Kattis Output:
 testCases = int(input())
 for test in range(testCases):
     s = int(input())
