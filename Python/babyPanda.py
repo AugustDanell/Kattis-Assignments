@@ -1,5 +1,4 @@
+# Omitting the comments this is currently the number 10 Shortest Solution. 
 # Assignment: https://open.kattis.com/problems/babypanda
 
-day, totalSlimes = list(map(int,input().split()))
-l = list("{0:b}".format(totalSlimes))
-print(l.count("1"))
+print(bin((int(input().split()[1]))).count("1"))
