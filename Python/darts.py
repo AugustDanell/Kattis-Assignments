@@ -1,3 +1,9 @@
+# Assignment: https://open.kattis.com/problems/dartscores?editsubmit=10659823
+
+# I realized this assignment was similar to one I solved in Haskell for a lab: 
+# https://open.kattis.com/problems/calculatingdartscores
+# Solution: https://github.com/AugustDanell/Kattis-Assignments/blob/master/Haskell/calculatingDartScores.hs
+
 import math
 
 testcases = int(input())
