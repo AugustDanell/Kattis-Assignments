@@ -1,3 +1,5 @@
+# Solution to the problem: https://open.kattis.com/problems/reachableroads
+
 # A function that takes in a graph G = (V,E) via an adjacency list, a starting node x and returns all nodes connected to the starting node x:
 def connectedNodes(startNode, adjList):
    queue = [startNode]
