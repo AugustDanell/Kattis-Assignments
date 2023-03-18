@@ -1,3 +1,5 @@
+// A solution to the following problem: https://open.kattis.com/problems/artichoke
+
 #include <stdio.h>
 #include <math.h>
 
