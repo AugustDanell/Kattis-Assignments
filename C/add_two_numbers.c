@@ -1,3 +1,5 @@
+// Link to problem description: https://open.kattis.com/problems/addtwonumbers
+
 #include <stdio.h>
 
 int main()
