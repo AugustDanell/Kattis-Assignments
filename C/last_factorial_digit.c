@@ -1,5 +1,6 @@
-#include <stdio.h>
+// A solution to the problem: https://open.kattis.com/problems/lastfactorialdigit
 
+#include <stdio.h>
 int tail_factorial(n,tail){
     if(n == 1 || n == 0){
         return tail;
