@@ -1,3 +1,5 @@
+// A solution to the problem: https://open.kattis.com/problems/evenup
+
 #include <iostream>
 #include <string>
 #include <vector>
