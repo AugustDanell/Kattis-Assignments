@@ -1,7 +1,5 @@
 // Kattis Solution to: https://open.kattis.com/problems/countingdays
-
-//#include "countingdays.h"
-#include <iostream>
+// Testfile included in the problem describtion: #include "countingdays.h"
 
 // 1. Initiate some global constants:
 int h = 0;
@@ -18,6 +16,7 @@ void lookAtClock(int hours, int minutes) {
     m = minutes;
 }
 
+// 3. Let the testfile get the current day:
 int getDay() {
     return d;
 }
