@@ -1,6 +1,6 @@
 # A solution to the problem: https://open.kattis.com/problems/triangledrama
 
-# Define a function to sort a triangle with weighed values, later this function is passed as the key arg at the end:
+# Define a function to sort a triangle with weighed values, later this function is passed as the key arg to the sorted function, at the end:
 def sortTrio(trio):
     return trio[0]*100 + trio[1]*10 + trio[2]
 
