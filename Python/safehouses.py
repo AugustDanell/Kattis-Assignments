@@ -1,3 +1,5 @@
+# A solution to the problem: https://open.kattis.com/problems/safehouses
+
 # Calculate manhattan distance:
 def manhattan(spy,house):
     x1,y1 = spy
