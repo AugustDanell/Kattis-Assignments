@@ -1,3 +1,5 @@
+// A solution to the problem: https://open.kattis.com/problems/cd
+
 #include <iostream>
 #include <unordered_map>
 using namespace std;
