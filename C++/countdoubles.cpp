@@ -1,4 +1,4 @@
-// A solution to the problem: https://open.kattis.com/problems/bungeebuilder
+// A solution to the problem: https://open.kattis.com/problems/countdoubles
 
 
 #include <vector>
