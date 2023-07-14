@@ -1,3 +1,4 @@
+# 736th Solved Problem
 # Link to problem: https://open.kattis.com/problems/doubleplusgood
 
 ''' General Solution:
