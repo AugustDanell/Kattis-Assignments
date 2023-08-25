@@ -1,4 +1,12 @@
 // 743th Kattis, Problem Description Here: https://open.kattis.com/problems/colorland
+/*
+General Solution:
+A solutions to this problem would be to traverse a counting array, initialized as [-1..]*n, backwards.
+Every time a color is shown, we update the array and save that specific instance of the array into a hashmap (using shallow copy).
+In this way we can basically create a map that gives us the cost for every next move, at any step on the board.
+With this map we can easily do a greedy solution, just jump as far as we can for every step.
+We have a counter that counts the amount of steps this would take. 
+*/
 
 import java.util.Arrays;
 import java.util.HashMap;
