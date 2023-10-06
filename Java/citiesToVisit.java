@@ -2,11 +2,11 @@
 
 /**
  * General Solution Idea:
- * Just create a datastructure for maintaining a bidirectional adjlist (Undirected).
- * From there, just step 1 -> 2 .. N -> 1.
- * For each timestep, append the index of the edge to a stringbuilder.
- * If, at any timestep, there is no path as the one above, break and print impossible.
- * Else, print the output of the stringbuilder. 
+ * 1. Just create a datastructure for maintaining a bidirectional adjlist (Undirected).
+ * 2. From there, just step 1 -> 2 .. N -> 1.
+ *    For each timestep, append the index of the edge to a stringbuilder.
+ * 3. If, at any timestep, there is no path as the one above, break and print impossible.
+ *    Else, print the output of the stringbuilder. 
  */
 
 import java.util.HashMap;
@@ -41,7 +41,8 @@ public class citiesToVisit {
             tour.append(adjList.get(currentCity).get(currentCity+1) + "\n");
             currentCity += 1;
         }
-        
+
+        // 3. Print the result:
         if(currentCity == n && adjList.containsKey(n) && adjList.get(n).containsKey(1)){
             tour.append(adjList.get(currentCity).get(1));    
             System.out.println(tour.toString());
