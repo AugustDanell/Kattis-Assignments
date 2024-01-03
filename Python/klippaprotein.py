@@ -1,3 +1,4 @@
+# Problem Description: https://open.kattis.com/problems/klippaprotein
 def cuts(c, text, cutSize):
     pointer = 0
     cutCounter = 0
