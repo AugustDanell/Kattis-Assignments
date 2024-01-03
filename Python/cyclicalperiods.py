@@ -1,3 +1,5 @@
+# Problem Description: https://open.kattis.com/problems/cyclicalperiods
+
 if __name__ == "__main__":
     N = int(input())
     occMap = {}
