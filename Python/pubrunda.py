@@ -1,3 +1,4 @@
+# Problem Description: https://open.kattis.com/problems/pubrunda
 if __name__ == "__main__":
     N = int(input())
     maxTime = 0
