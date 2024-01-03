@@ -1,3 +1,4 @@
+# Problem Description: https://open.kattis.com/problems/kcuddlanod
 def getText(text):
     text = text.replace("2", ".")
     text = text.replace("5", "2")
