@@ -1,3 +1,5 @@
+# Problem Description: https://open.kattis.com/problems/gettowork
+
 def minimizeDrivers(town, employeeMap):
     if town not in employeeMap:
         return 0
