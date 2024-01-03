@@ -1,3 +1,4 @@
+# Problem: https://open.kattis.com/problems/meddelande
 if __name__ == "__main__":
     rows, cols = list(map(int,input().split()))
     letters = []
