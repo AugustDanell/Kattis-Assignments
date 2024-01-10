@@ -1,6 +1,5 @@
 # Problem Description: https://open.kattis.com/problems/gravity
 
-
 # A DFS algorithm that starts from the floor and marks solid blocks:
 def findSolids(grid, rows, cols):
     toVisit = []
